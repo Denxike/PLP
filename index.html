@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <h1>Registration From</h1>
+    <img src="https://images.pexels.com/photos/3771087/pexels-photo-3771087.jpeg?auto=compress&cs=tinysrgb&w=400" al="woman standing behind a hospitable-woman-standing-behind-front-desk" width="200"height="100">
+    <table border = "2">
+        <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td><input name="name"type="text"placeholder="Joe"required></td>
+            <td>
+                <select>
+                    <option><input name="gender"type="radio"value="male">Male</option>
+                    <option><input name="gender"type="radio"value="male">Female</option>
+                </select>
+            </td>
+            <td><input name="email"type="email"placeholder="JoeDoe@email.com"required></td>
+            <td><input type="number" name="Phone"placeholder="064656555"></td>
+            <td>
+                <select>
+                    <option><input name="country"type="checkbox"value="Kenya">Kenya</option>
+                    <option><input name="country"type="checkbox"value="Others">Others </option>
+                 </select>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
